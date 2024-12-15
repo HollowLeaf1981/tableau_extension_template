@@ -18,6 +18,42 @@ Before running this project, ensure you have the following installed:
 - Git
 - A Tableau environment to test the extension
 
+## Using `degit` to Create a New Project
+
+To create a new project based on this repository using `degit`, follow these steps:
+
+1. Ensure you have `degit` installed globally. If not, install it using:
+
+   ```bash
+   npm install -g degit
+   ```
+3. Use degit to create a copy of this repository:
+
+   ```bash
+   degit HollowLeaf1981/tableau_extension_template your-new-project
+   ```
+Replace your-new-project with the desired name of your project folder.
+
+3. Navigate to the newly created project directory:
+
+   ```bash
+   cd your-new-project
+   ```
+
+4. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and navigate to the local server URL provided (usually `http://localhost:5173`).
+   
 ## Installation
 
 1. Clone the repository:
