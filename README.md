@@ -57,7 +57,19 @@ Before running this project, ensure you have the following installed:
 
 ## Project Structure
 
-. ├── public │ ├── configure.html # Entry point for the configuration dialog │ └── index.html # Main entry point for the extension ├── src │ ├── components │ │ └── Configure.jsx # Component for the configuration dialog │ ├── App.jsx # Main application logic │ └── index.js # Application entry point ├── package.json └── README.md
+```
+.
+├── public
+│   ├── configure.html     # Entry point for the configuration dialog
+│   └── index.html         # Main entry point for the extension
+├── src
+│   ├── components
+│   │   └── Configure.jsx  # Component for the configuration dialog
+│   ├── App.jsx            # Main application logic
+│   └── index.js           # Application entry point
+├── package.json
+└── README.md
+```
 
 ## How It Works
 
